@@ -25,7 +25,7 @@ const Navbar = () => {
             </li>
 
             <li>
-            <Link to="/about" onClick={openPage}>Services</Link>
+            <Link to="/services" onClick={openPage}>Services</Link>
             </li>
 
             <li>
@@ -33,7 +33,7 @@ const Navbar = () => {
             </li>
 
             <li>
-            <Link to="/models" onClick={openPage}>Articles</Link>
+            <Link to="/articles" onClick={openPage}>Articles</Link>
             </li>
 
             <li>

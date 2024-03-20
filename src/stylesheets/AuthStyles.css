@@ -97,6 +97,12 @@
     background: var(--primary-color);
 }
 
+
+.auth-center .form-con button:hover{
+    background: var(--primary-color-deep);
+    transition: .3s;
+}
+
 .auth-link {
     display: flex;
     align-items: center;
