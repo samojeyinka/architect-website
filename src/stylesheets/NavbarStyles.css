@@ -79,16 +79,16 @@ ul .nav-btns{
     }
 
     .Nav-menu{
+        padding-top: 3rem;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
-        position:absolute;
-        top: 100px;
+        position:fixed;
+        top: 0;
         left:-100%;
         background:var(--primary-color);
         z-index: 100;
-        height: calc(100vh - 100px);
-        width: 100%;
+        height: 100vh;
+        width: 70%;
         transition: .5s;
         
     }
