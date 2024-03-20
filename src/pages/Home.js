@@ -7,6 +7,7 @@ import Features from '../components/Features'
 import Intro from '../components/Intro'
 import Story from '../components/Story'
 import Blog from '../components/Blog'
+import Projects from '../components/Projects'
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
    <Intro/>
    <Story/>
    <Blog/>
+   <Projects/>
    </main>
   )
 }

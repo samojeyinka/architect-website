@@ -20,6 +20,10 @@ import storyBanner from '../assets/storyBanner.png';
 import blog1 from '../assets/blog1.png';
 import blog2 from '../assets/blog2.png';
 import blog3 from '../assets/blog3.png';
+import pro1 from '../assets/pro1.png';
+import pro2 from '../assets/pro2.png';
+import pro3 from '../assets/pro3.png';
+import pro4 from '../assets/pro4.png';
 
 export {
     logo,
@@ -43,5 +47,9 @@ export {
     storyBanner,
     blog1,
     blog2,
-    blog3
+    blog3,
+    pro1,
+    pro2,
+    pro3,
+    pro4,
 }
