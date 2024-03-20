@@ -17,6 +17,7 @@ import introBanner from '../assets/introBanner.png';
 import owner from '../assets/owner.png';
 import ownerBg from '../assets/owner-bg.png';
 import storyBanner from '../assets/storyBanner.png';
+import blog1 from '../assets/blog1.png';
 
 export {
     logo,
@@ -37,5 +38,6 @@ export {
     introBanner,
     owner,
     ownerBg,
-    storyBanner
+    storyBanner,
+    blog1
 }
