@@ -24,6 +24,7 @@ import pro1 from '../assets/pro1.png';
 import pro2 from '../assets/pro2.png';
 import pro3 from '../assets/pro3.png';
 import pro4 from '../assets/pro4.png';
+import ctm1 from '../assets/ctm1.png';
 
 export {
     logo,
@@ -52,4 +53,5 @@ export {
     pro2,
     pro3,
     pro4,
+    ctm1
 }

@@ -9,8 +9,7 @@
     --small-text-color:#706f7b;
     --white-text-color:#fff;
     --border-color:#ababab;
-    --initial-bg:#e9e9e9;
-
+    --initial-bg:#202020;
     --btn-radius:3px;
     --hover-shadow:#0A72AD 0px 1px 15px 0px;
     --box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -43,7 +42,7 @@ body{
     width: 100%;
     height: 100%;
     font-family: Rubik, sans-serif;
-    background: #000000d3;
+    background: linear-gradient(to bottom, #313030 22%, #ffffff 23%);
 }
 
 main{
@@ -55,3 +54,5 @@ main{
     width: 100%;
     background: var(--body-color);
 }
+
+

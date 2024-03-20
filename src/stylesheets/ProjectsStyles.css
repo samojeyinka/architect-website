@@ -1,95 +1,97 @@
-.projects-flex{
+.projects-flex {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     padding-left: 1.7rem;
+    overflow: hidden;
 }
 
-.projects-flex .project-box{
+.projects-flex .project-box {
     position: relative;
     cursor: pointer;
 }
 
 
 
-.projects-flex .pro-tag{
+.projects-flex .pro-tag {
     padding: .8rem;
-    width:70%;
+    width: 70%;
     position: absolute;
     bottom: 2%;
     left: 7%;
     background: var(--body-color);
     align-items: center;
     justify-content: space-between;
-    display: none ;
+    display: none;
 }
 
 
 .projects-flex .project-box.pb-1:hover .pro-tag.pt-1,
 .projects-flex .project-box.pb-2:hover .pro-tag.pt-2,
 .projects-flex .project-box.pb-3:hover .pro-tag.pt-3,
-.projects-flex .project-box.pb-4:hover .pro-tag.pt-4{
+.projects-flex .project-box.pb-4:hover .pro-tag.pt-4 {
     display: flex;
 }
 
 
-.projects-flex .pro-tag h5{
+.projects-flex .pro-tag h5 {
     font-size: 1rem;
     color: var(--bg-text-color);
 }
 
-.projects-flex .pro-tag p{
+.projects-flex .pro-tag p {
     font-size: 1rem;
     color: var(--small-text-color);
 }
 
-.projects-flex .pro-tag .pro-tag-right{
+.projects-flex .pro-tag .pro-tag-right {
     padding: .8rem;
     height: 100%;
     background: var(--primary-color);
 }
 
 
-.projects-flex .pro-tag .pro-tag-right a{
+.projects-flex .pro-tag .pro-tag-right a {
     font-size: 1.2rem;
     color: var(--body-color);
 }
 
 
-@media screen  and (max-width:1215px){
+@media screen and (max-width:1215px) {
 
-    .projects-flex .project-box{
-        width:12rem;
+    .projects-flex .project-box {
+        width: 12rem;
         height: 14rem;
+    }
+
+    .projects-flex .project-box img {
+        width: 100%;
+        height: 100%;
+    }
+
 }
 
-.projects-flex .project-box img{
-    width:100%;
-    height: 100%;
-}
 
-}
-
-
-@media screen  and (max-width:815px){
-    .projects-flex{
+@media screen and (max-width:815px) {
+    .projects-flex {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
     }
 
-    .projects-flex .project-box{
-        width:90%;
+    .projects-flex .project-box {
+        width: 90%;
         height: 20rem;
-}
-.projects-flex .pro-tag{
-    width:90%;
-}
+    }
+
+    .projects-flex .pro-tag {
+        width: 90%;
+    }
 
 }
 
-@media screen  and (max-width:500px){
-    .projects-flex{
-        grid-template-columns:1fr;
-      
+@media screen and (max-width:500px) {
+    .projects-flex {
+        grid-template-columns: 1fr;
+
     }
 }
