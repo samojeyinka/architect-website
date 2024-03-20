@@ -1,0 +1,42 @@
+.story{
+    padding: 1rem 0;
+}
+
+.story .intro-flex{
+    flex-direction: row-reverse;
+}
+
+.story .intro-banner-box{
+    box-shadow: var(--box-shadow);
+    /* box-shadow: var(--hover-shadow); */
+}
+
+.story .sm-btn{
+    width: fit-content;
+    background: var(--primary-color);
+}
+
+
+
+.story .sm-btn:hover{
+    background: var(--bg-text-color);
+    transition: .6s;
+}
+
+
+
+@media screen and (max-width:768px){
+
+    .story{
+        padding: 2rem 0;
+    }
+    .story .intro-flex{
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+
+
+
+

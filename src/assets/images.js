@@ -16,6 +16,7 @@ import f4 from '../assets/f4.png';
 import introBanner from '../assets/introBanner.png';
 import owner from '../assets/owner.png';
 import ownerBg from '../assets/owner-bg.png';
+import storyBanner from '../assets/storyBanner.png';
 
 export {
     logo,
@@ -35,5 +36,6 @@ export {
     f4,
     introBanner,
     owner,
-    ownerBg
+    ownerBg,
+    storyBanner
 }

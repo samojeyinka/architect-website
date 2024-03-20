@@ -5,6 +5,7 @@ import Sponsors from '../components/Sponsors'
 import Services from '../components/Services'
 import Features from '../components/Features'
 import Intro from '../components/Intro'
+import Story from '../components/Story'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
    <Services/>
    <Features/>
    <Intro/>
+   <Story/>
    </main>
   )
 }

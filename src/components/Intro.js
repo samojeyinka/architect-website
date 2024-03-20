@@ -1,5 +1,5 @@
 import React from 'react'
-import { f1, f2, f3, f4,introBanner, owner } from '../assets/images';
+import {introBanner, owner } from '../assets/images';
 import '../stylesheets/IntroStyles.css';
 import {FaUsers,FaLongArrowAltRight} from 'react-icons/fa'
 
