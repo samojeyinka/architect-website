@@ -1,7 +1,7 @@
 .projects-flex{
     display: grid;
     grid-template-columns: repeat(4,1fr);
- 
+    padding-left: 1.7rem;
 }
 
 .projects-flex .project-box{
