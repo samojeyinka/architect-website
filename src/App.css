@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;1,400&family=Rubik:wght@300;400;500;600;700;800&display=swap');
 
 :root{
-    --body-color:#f8f8f8;
+    --body-color:#fff;
     --primary-color:#0A72AD;
     --primary-color-deep:#02314d;
-      --secondary-bg:#f8f8f8;
+    --secondary-bg:#F6F6F6;
     --bg-text-color:#000;
     --small-text-color:#706f7b;
     --white-text-color:#fff;

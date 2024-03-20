@@ -6,7 +6,9 @@ import sp2 from '../assets/sp2.png';
 import sp3 from '../assets/sp3.png';
 import sp4 from '../assets/sp4.png';
 import sp5 from '../assets/sp5.png';
-
+import idr from '../assets/industrial.png';
+import comm from '../assets/commercial.png';
+import res from '../assets/residential.png';
 
 export {
     logo,
@@ -16,5 +18,8 @@ export {
     sp2,
     sp3,
     sp4,
-    sp5
+    sp5,
+    idr,
+    comm,
+    res,
 }
