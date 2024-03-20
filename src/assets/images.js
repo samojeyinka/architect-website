@@ -9,6 +9,10 @@ import sp5 from '../assets/sp5.png';
 import idr from '../assets/industrial.png';
 import comm from '../assets/commercial.png';
 import res from '../assets/residential.png';
+import f1 from '../assets/f1.png';
+import f2 from '../assets/f2.png';
+import f3 from '../assets/f3.png';
+import f4 from '../assets/f4.png';
 
 export {
     logo,
@@ -22,4 +26,8 @@ export {
     idr,
     comm,
     res,
+    f1,
+    f2,
+    f3,
+    f4
 }

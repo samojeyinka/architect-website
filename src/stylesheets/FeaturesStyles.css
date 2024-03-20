@@ -1,0 +1,30 @@
+
+
+.features .sb-flex{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.features .sb-box img{
+    padding: .5rem;
+    width: 2.7rem;
+    height: 2.7rem;
+    background: var(--primary-color);
+    border: 6px solid #6fc6f9be;
+    border-radius: 50%;
+}
+
+
+
+@media screen and (max-width:768px){
+
+   .features .sb-flex{
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+
+    }
+}
