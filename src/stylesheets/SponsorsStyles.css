@@ -1,0 +1,19 @@
+.sponsors-flex{
+    padding: 1.5rem 0;
+    width: 90%;
+    margin: auto ;
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+}
+
+.sponsors-flex img{
+    width: 7rem;
+}
+
+
+@media screen and (max-width: 768px){
+    .sponsors-flex img{
+        width: 5rem;
+    }
+}
