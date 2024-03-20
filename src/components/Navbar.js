@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../stylesheets/NavbarStyles.css';
 import {Link} from 'react-router-dom';
 import {logo} from "../assets/images"
-import {FaBars,FaTimes} from 'react-icons/fa'
+import {FaBars,FaTimes} from 'react-icons/fa';
 
 const Navbar = () => {
 
@@ -61,7 +61,7 @@ const Navbar = () => {
 
         <div className='nav-btns'>
 
-            <button className='nav-btn register'>Hire</button>
+            <Link to={"/login"}><button className='nav-btn register'>Hire</button></Link>
 
         </div>
 
