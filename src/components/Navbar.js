@@ -42,7 +42,7 @@ const Navbar = () => {
 
             <div className='nav-btns'>
 
-            <button className='nav-btn sign-in'>Hire</button>
+            <Link to={"/login"} onClick={openPage}><button className='nav-btn sign-in'>Hire</button></Link>
             
 
         </div>
