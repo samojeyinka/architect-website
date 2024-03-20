@@ -13,6 +13,9 @@ import f1 from '../assets/f1.png';
 import f2 from '../assets/f2.png';
 import f3 from '../assets/f3.png';
 import f4 from '../assets/f4.png';
+import introBanner from '../assets/introBanner.png';
+import owner from '../assets/owner.png';
+import ownerBg from '../assets/owner-bg.png';
 
 export {
     logo,
@@ -29,5 +32,8 @@ export {
     f1,
     f2,
     f3,
-    f4
+    f4,
+    introBanner,
+    owner,
+    ownerBg
 }

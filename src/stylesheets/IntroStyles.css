@@ -1,0 +1,135 @@
+.intro{
+    padding: 1rem 0;
+}
+
+.intro-flex{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    position: relative;
+    
+}
+
+.intro-left,.intro-right{
+    width: 100%;
+}
+.intro-banner-box{
+    width: 80%;
+    height: 80%;
+}
+
+.intro-banner-box img{
+    width: 100%;
+    height: 100%;
+}
+
+.intro-content{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.intro-content h3{
+    width: 55%;
+    font-size: 2.1rem;
+    font-weight: 500;
+    color: var(--bg-text-color);
+}
+
+.intro-content p{
+    width: 70%;
+    font-size: 1.1em;
+    font-weight: 400;
+    line-height: 2rem;
+    color: var(--small-text-color);
+}
+
+
+.intro-btns{
+    display: flex;
+    gap: 2rem;
+}
+
+.intro-btns .team-btn{
+    background: var(--primary-color);
+}
+
+.intro-btns .hw-btn{
+    background: var(--small-text-color);
+}
+
+.intro-btns .team-btn:hover{
+    background: var(--bg-text-color);
+    transition: .6s;
+}
+
+.intro-btns .hw-btn:hover{
+    background: var(--bg-text-color);
+    transition: .6s;
+}
+
+
+.over-card{
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    width: 13rem;
+    height: fit-content;
+   background-image: url('../assets//owner-bg.png');
+}
+
+.oc-flex{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.oc-flex img{
+    margin: auto;
+    width: 4rem;
+}
+
+.oc-flex h5{
+    font-size: .9rem;
+    text-align: center;
+    color: var(--white-text-color);
+}
+
+
+.oc-flex p{
+    font-size: .9rem;
+    text-align: center;
+    color: var(--white-text-color);
+}
+
+@media screen and (max-width:1200px){ 
+    .over-card{
+        left: 20%;
+    }
+}
+@media screen and (max-width:768px){
+    .intro-flex{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .intro-banner-box{
+        width: 100%;
+        height: 100%;
+    }
+
+    .intro-content h3{
+        width: 100%;
+        font-size: 2rem;
+    }
+    
+    .intro-content p{
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .over-card{
+        left: 30%;
+    }
+}
