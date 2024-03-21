@@ -37,7 +37,7 @@ const Navbar = () => {
             </li>
 
             <li>
-            <Link to="/testimonials" onClick={openPage}>Portfolio</Link>
+            <Link to="/portfolio" onClick={openPage}>Portfolio</Link>
             </li>
 
             <div className='nav-btns'>

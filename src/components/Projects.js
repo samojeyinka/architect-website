@@ -13,7 +13,7 @@ const Projects = () => {
             <div className='services'>
                 <div className='services-top'>
                     <div className='st-left'>
-                        <h3>Our collection best project</h3>
+                        <h3>Our collection best projects</h3>
                     </div>
                 </div>
                 <div className='services-btm'>

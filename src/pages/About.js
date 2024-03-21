@@ -37,7 +37,7 @@ const About = () => {
                                 </div>
                                 <div className='stat-box'>
                                     <h5>900+</h5>
-                                    <p>YProjects Delivered</p>
+                                    <p>Projects Delivered</p>
                                 </div>
                                 <div className='stat-box'>
                                     <h5>$15M+</h5>

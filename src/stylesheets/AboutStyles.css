@@ -61,13 +61,13 @@
 }
 
 
-.ar-btm-stats {
+.about .ar-btm-stats {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1.4rem;
 }
 
-.ar-btm-stats .stat-box {
+.about .ar-btm-stats .stat-box {
     padding: 1rem;
     background: var(--secondary-bg);
     border-radius: .6rem;
