@@ -1,0 +1,139 @@
+.about {
+    padding-top: 3rem;
+    width: 100%;
+    height: 100%;
+    background: var(--body-color);
+}
+
+
+.about-flex {
+    margin: auto;
+    width: 75%;
+    display: flex;
+    gap: 2rem;
+}
+
+.about-right {
+    padding: 1rem;
+    width: 50%;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.about-left {
+    padding: 1rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.about-left .al-top {
+    width: 70%;
+}
+
+.about-left .al-top h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--bg-text-color);
+}
+
+.about-left .al-btm {
+    width: 90%;
+}
+
+.about-left .al-btm p {
+    line-height: 1.5rem;
+    color: var(--small-text-color);
+}
+
+.about-flex .ar-top {
+    width: 100%;
+    height: 20rem;
+    border-radius: .6rem;
+    overflow: hidden;
+}
+
+
+.about-flex .ar-top img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.ar-btm-stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.4rem;
+}
+
+.ar-btm-stats .stat-box {
+    padding: 1rem;
+    background: var(--secondary-bg);
+    border-radius: .6rem;
+}
+
+.about-right {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.about-right h5 {
+    font-size: 1.1rem;
+    color: var(--bg-text-color);
+}
+
+.about-right p {
+    font-size: 1rem;
+    color: var(--bg-text-color);
+}
+
+@media screen and (max-width: 1000px) {
+    .about-flex {
+        margin: auto;
+        width: 88%;
+        display: flex;
+        gap: 2rem;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .about {
+        padding: 2rem 0;
+        width: 100%;
+        height: 100%;
+        background: var(--body-color);
+    }
+
+    .about-flex {
+        width: 95%;
+        flex-direction: column;
+    }
+
+    .about-right {
+        width: 100%;
+    }
+
+    .about-left {
+        width: 100%;
+        gap: 1.5rem;
+    }
+
+    .about-left .al-top {
+        width: 100%;
+    }
+
+    .about-left .al-top h2 {
+        font-size: 1.8rem;
+    }
+
+    .about-left .al-btm {
+        width: 100%;
+    }
+
+    .about-flex .ar-top {
+        height: 100%;
+    }
+}

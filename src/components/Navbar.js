@@ -29,7 +29,7 @@ const Navbar = () => {
             </li>
 
             <li>
-            <Link to="/models" onClick={openPage}>About Us</Link>
+            <Link to="/about-us" onClick={openPage}>About Us</Link>
             </li>
 
             <li>
