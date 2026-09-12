@@ -1,0 +1,5 @@
+import { ArrowUpRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import type { Architect, Project } from '../types';
+export function ArchitectCard({architect}:{architect:Architect}) {return <Link className="architect-card" to={`/architects/${architect.slug}`}><div className="image-wrap"><img src={architect.image} alt={architect.name}/></div><div className="card-foot"><div><h3>{architect.name}</h3><p className="mono">{architect.location} · {architect.specialty}</p><p className="rating">{architect.rating.toFixed(1)} <span>★★★★★</span> <em>({architect.reviews} reviews)</em></p></div><i className="round-arrow"><ArrowUpRight size={17}/></i></div></Link>}
+export function ProjectCard({project,offset=false}:{project:Project;offset?:boolean}) {return <article className={`project-card ${offset?'offset':''}`}><div className="image-wrap"><img src={project.image} alt={project.title}/></div><div><h3>{project.title}</h3><p className="mono">{project.location} · {project.year}</p></div></article>}
