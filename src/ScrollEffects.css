@@ -1,0 +1,7 @@
+@supports (animation-timeline: view()){
+  .home-page>.intro,.home-page>.section,.home-page>.cta{animation:formline-rise linear both;animation-timeline:view();animation-range:entry 0% entry 50%;will-change:transform,opacity}
+  .home-page>.projects-dark{animation:formline-sweep linear both;animation-timeline:view();animation-range:entry 0% entry 50%;will-change:transform,opacity}
+}
+@keyframes formline-rise{from{opacity:0;transform:translate3d(0,72px,0)}to{opacity:1;transform:translate3d(0,0,0)}}
+@keyframes formline-sweep{from{opacity:0;transform:translate3d(0,100px,0) scale(.975)}to{opacity:1;transform:translate3d(0,0,0) scale(1)}}
+@media(prefers-reduced-motion:reduce){.home-page>*{animation:none!important;transform:none!important;opacity:1!important}}

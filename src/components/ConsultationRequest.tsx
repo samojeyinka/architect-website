@@ -59,14 +59,14 @@ export function ConsultationRequest() {
 
   if (!session && intent) return <Account next={`/consult/${architectId || ''}${preselect ? `?brief=${preselect}` : ''}`} initialRole="client" initialMode="signup" />;
 
-  if (notFound && !architect) return <main className="account-flow application"><Link className="logo" to="/architects">form<span>line</span></Link><section><p className="mono">[ NOT FOUND ]</p><h1>This practice<br /><em>isn’t here.</em></h1><p className="flow-intro">The studio you’re looking for may no longer be part of the Formline directory.</p><Link className="dark-button" to="/architects">Browse all architects →</Link></section></main>;
+  if (notFound && !architect) return <main className="account-flow application"><Link className="logo" to="/architects">arco<span>nnet</span></Link><section><p className="mono">[ NOT FOUND ]</p><h1>This practice<br /><em>isn’t here.</em></h1><p className="flow-intro">The studio you’re looking for may no longer be part of the Arconnet directory.</p><Link className="dark-button" to="/architects">Browse all architects →</Link></section></main>;
 
-  return <main className="account-flow application"><Link className="logo" to="/architects">form<span>line</span></Link>
+  return <main className="account-flow application"><Link className="logo" to="/architects">arco<span>nnet</span></Link>
     <section className="consult-profile">
       <a className="mono back" href="/architects">← ALL ARCHITECTS</a>
       <div className="consult-profile-body">
         <div><p className="mono">{architect?.city || 'Location coming soon'}{architect?.specialty ? ` · ${architect.specialty}` : ''}</p><h1>{architect?.studio_name || 'A thoughtful practice'}<br /><em>{architect ? 'at a glance.' : ''}</em></h1></div>
-        <div className="consult-profile-bio"><p>{architect?.bio || 'A verified Formline practice, ready for considered new enquiries.'}</p>{architect && <span className="consult-verified"><span className="nav-user-dot" />Verified by Formline</span>}</div>
+        <div className="consult-profile-bio"><p>{architect?.bio || 'A verified Arconnet practice, ready for considered new enquiries.'}</p>{architect && <span className="consult-verified"><span className="nav-user-dot" />Verified by Arconnet</span>}</div>
       </div>
       {guest ? <div className="consult-gate"><div><h3>Request a consultation with {architect?.studio_name || 'this studio'}.</h3><p>Sign in to your account, then send this studio one of your saved briefs — or write a fresh one.</p></div><button className="dark-button" onClick={() => setIntent(true)}>Sign in to request a consultation <ArrowUpRight size={15} /></button></div>
         : <form className="consult-form" onSubmit={submit}><p className="mono">[ REQUEST A CONSULTATION ]</p><h2>Send a thoughtful<br /><em>introduction.</em></h2>
